@@ -19,7 +19,7 @@
 
 
     <!--Kernel-->
-    <project path="kernel/samsung/goyave" name="android_kernel_samsung_goyave3g" remote="kernel" />
+    <project path="kernel/samsung/goyave" name="NhlalukoG/android_kernel_samsung_goyave3g" remote="kernel" />
 
 
     <!-- Vendor folders -->
