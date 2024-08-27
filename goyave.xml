@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <remote name="vendor"
+            fetch="https://github.com"
+            revision="cm-14.1" />
+	
+    <remote name="device"
+            fetch="https://github.com"
+            revision="cm-14.1"/>
+
+    <remote name="kernel"
+            fetch="https://github.com"
+            revision="master"/>
+
+    <!--Device Trees-->
+    <project path="device/samsung/goyave" name="sixito007/android_device_samsung_goyave3g" remote="device" />
+
+
+    <!--Kernel-->
+    <project path="kernel/samsung/goyave" name="android_kernel_samsung_goyave3g" remote="kernel" />
+
+
+    <!-- Vendor folders -->
+    <project path="vendor/samsung/goyave" name="sixito007/android_vendor_samsung_goyave3g" remote="vendor" />
+</manifest>
