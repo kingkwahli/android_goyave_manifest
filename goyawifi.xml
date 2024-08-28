@@ -15,13 +15,13 @@
             revision="master"/>
 
     <!--Device Trees-->
-    <project path="device/samsung/goyave" name="sixito007/android_device_samsung_goyave3g" remote="device" />
+    <project path="device/samsung/goyawifi" name="sixito007/android_device_samsung_goyave3g" remote="device" />
 
 
     <!--Kernel-->
-    <project path="kernel/samsung/goyave" name="NhlalukoG/android_kernel_samsung_goyave3g" remote="kernel" />
+    <project path="kernel/samsung/goyawifi" name="NhlalukoG/android_kernel_samsung_goyave3g" remote="kernel" />
 
 
     <!-- Vendor folders -->
-    <project path="vendor/samsung/goyave" name="sixito007/android_vendor_samsung_goyave3g" remote="vendor" />
+    <project path="vendor/samsung/goyawifi" name="sixito007/android_vendor_samsung_goyave3g" remote="vendor" />
 </manifest>
