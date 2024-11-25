@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="github" fetch="https://github.com/" />
+	<remove-project name="LineageOS/android_hardware_libhardware" />
+	<remove-project name="LineageOS/android_hardware_libhardware_legacy" />
+	<remove-project name="LineageOS/android_hardware_broadcom_libbt" />
+	
+	<!-- Device Trees -->
+	<project path="device/samsung/goyave3g" remote="sixito007" name="android_device_samsung_goyave3g" revision="cm-14.1" />
+	
+	<!-- Kernel/Vendor -->
+	<project path="vendor/samsung/goyave3g" remote="sixito007" name="android_vendor_samsung_goyave3g" revision="cm-14.1" />
+	<project path="kernel/samsung/goyave3g" remote="NhlalukoG" name="android_kernel_samsung_goyave3g" revision="master" /> 
+
+	<!-- SPRD-specific -->
+	<project path="device/samsung/spreadtrum-common" remote="microzans" name="android_hardware_samsung_sprd-common-1" revision="cm-11.0" />
+	<project path="hardware/spreadtrum" remote="Dar2904" name="android_hardware_sprd" revision="slim-7.0" />
+	<project path="hardware/libhardware" remote="LineageOS" name="android_hardware_libhardware" groups="pdk" />
+	<project path="hardware/libhardware_legacy" remote="LineageOS" name="android_hardware_libhardware_legacy" groups="pdk" />
+</manifest>
